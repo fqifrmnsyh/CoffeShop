@@ -1,0 +1,66 @@
+Daftar views yang kepake:
+
+templates:
+- header
+- topbar
+- footer
+- aute_header
+- aute_footer
+- admin/sidebar
+- kasir/sidebar
+- user/header-user
+- user/footer-user
+# done
+
+admin:
+- index
+# done
+
+kasir:
+- index
+# done
+
+user:
+- index
+- anggota
+- ubah-password
+# done
+
+autentifikasi:
+- login2
+- registrasi
+- blok
+- gagal
+# done
+
+customer:
+- daftar
+- pembayaranselesai
+- cetak
+- histori-transaksi
+- histori-detail_transaksi
+# done
+
+pesanan:
+- detail_pesanan
+- histori-transaksi
+- histori-detail_transaksi
+- bukti-pdf
+- laporan_pdf_transaksi
+- daftar-transaksi
+- daftar-detail_transaksi
+- keranjang
+
+
+produk:
+- index
+- ubah_produk
+- kategori
+- ubah_kategori
+- katalog
+- menu-detail
+- laporan_produk
+- laporan_print_produk
+- laporan_pdf_produk
+- export_excel_produk
+- export_excel_transaksi
